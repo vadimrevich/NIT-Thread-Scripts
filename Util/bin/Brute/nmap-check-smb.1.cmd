@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\nmap\nmap.exe" -p 88,135,137,139,445,3389,4899,5985,5986 -T4 -O -oN $2-oX $3 -A -v -d -Pn --script broadcast-netbios-master-browser,rpc-grind,smb-enum-shares,smb-enum-users,smb-os-discovery,smb-protocols %1 2>&1

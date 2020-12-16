@@ -1,0 +1,1 @@
+%USERPROFILE%\bin\Brutes\hydra-brute-smb.1.cmd %USERPROFILE%\Logins\%2  %USERPROFILE%\passwords\%3 %1 | tee %USERPROFILE%\loginsmbbrute-hydra-journal-%1.lst

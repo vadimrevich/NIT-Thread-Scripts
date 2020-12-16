@@ -1,0 +1,1 @@
+nmap -p 135,137,138,139,445,3389,5985 -T4 -O -oN /home/pi/nmap-check-smb.$1.nmap -oX /home/pi/nmap-check-smb.$1.xml -A -v -d -Pn --script broadcast-netbios-master-browser,rpc-grind,smb-enum-shares,smb-enum-users,smb-os-discovery,smb-protocols -iL $1

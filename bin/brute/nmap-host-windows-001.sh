@@ -1,0 +1,1 @@
+nmap -sS -sU -sV -p 135-139,443,445,3389,4899,5985 -T4 -O -A -v -Pn --script nbstat,smb-enum-domains,smb-enum-groups,smb-enum-shares,smb-enum-users,smb-os-discovery,smb-protocols,smb-security-mode,smb-system-info,smb2-capabilities,smb2-security-mode -oN host-$1-windows-$2.nmap -oX host-$1-windows-$2.xml $1

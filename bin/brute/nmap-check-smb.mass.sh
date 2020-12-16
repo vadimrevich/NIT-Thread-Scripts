@@ -1,0 +1,1 @@
+nmap -p 135,137,138,139,445,3389,5985 -T4 -O -oN ~/nmap-check-smb.mass.nmap -oX ~/nmap-check-smb.mass.xml -A -v -d -Pn --script broadcast-netbios-master-browser,rpc-grind,smb-enum-shares,smb-os-discovery,smb-protocols $1

