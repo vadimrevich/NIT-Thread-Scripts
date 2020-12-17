@@ -14,7 +14,7 @@ $RECYCLE.BIN/
 # Windows Execution and archieve files
 *.exe
 *.dll
-*.zip
+#*.zip
 *.rar
 *.7z
 

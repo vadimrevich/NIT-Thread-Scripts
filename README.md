@@ -12,24 +12,4 @@ This scrips help you:
 
 The library is permanently updated with new scripts on Windows and Linux
 
-# Installing
 
-- Clone this repository
-- Commands for Linux
-
-```
-    cd bin/
-    sudo chmod 775 chmod-name.sh
-    sudo ./chmod-name.sh . f 775 '*.sh'
-    mkdir ~/bin/
-    cp -r ./* ~/bin/ 
-```
-
-- Command for Windows
-
-```
-   xcopy .\Util\*.* %USERPROFILE%\ /S /V /E
-```
-
-- Then run `%USERPROFILE%\bin\requiremints.bat` for Windows or
-  `~/bin/requirements.sh` for Linux;
